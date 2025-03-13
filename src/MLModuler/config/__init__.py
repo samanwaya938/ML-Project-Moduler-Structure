@@ -10,3 +10,8 @@ class DataIngestionConfig:
 @dataclass
 class DataTransformationConfig:
   transformation_data_path = os.path.join("artifact", "Data_Transformation", "prepossessor.pkl")
+
+
+@dataclass
+class ModelTrainerConfig:
+  model_trainer_path = os.path.join("artifact", "Model trainer", "model.pkl")
